@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0; 
+	color: white;
+	text-align: center;
+	font-family: calibri;
+}
+
+#wrapper {
+	background-color: #000026;
+	max-width: 1024px; 
+
+}
+
+#section-b div {
+	height: 4rem;
+	width: 4rem; 
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+ul {
+	margin-left: 20px;
+	list-style: none;
+}
+
+ul:before {
+	content: "";
+	width: 2px;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	left: 20px;
+}
